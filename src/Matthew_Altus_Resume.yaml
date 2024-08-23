@@ -1,0 +1,177 @@
+cv:
+  name: Matthew Altus
+  location: Melrose Park, South Australia
+  phone: tel:+61-408-644-469
+  email: matt@altus.id.au
+  social_networks:
+    - network: LinkedIn
+      username: matthew-altus-9769b6259
+    - network: GitHub
+      username: mattaltus
+  sections:
+    eduction:
+    - institution: Univerity of South Australia
+      area: Computer Systems Engineering
+      start_date: 1995
+      end_date: 1998
+    experience:
+    - company: RedFlow International
+      position: Senior Software Engineer
+      start_date: 2016
+      highlights:
+        - Built and Maintain Battery Management System
+        - Perl/Mojolicious/Vue for Web UI/REST interface
+        - MQTT/JSON/LZ4 message bus
+        - Internal data storage in C/JSON/LZ4
+        - Battery interface with MODBUS RTU over RS485
+        - Inverter/EMS interface with CANBus (SMA, Ingeteam)
+          MODBUS TCP and UDP, custom API’s from Selectronic,
+          and Growatt
+        - Interface USB relays with HID and FTDI bit banging interface.
+        - Built and maintain custom linux based firmware images using Yocto
+        - Helped maintain and port battery controller firmware.
+        - Bare metal firmware on MSP430 using TI Code Composer.
+        - Bare metal firmware on C2000 using TI Code Composer.
+        - Designed a challenge/response antitheft mechanism.
+        - Developed and Maintain Cloud service
+        - Hosted on VMware at first and Google Cloud VMs
+        - PostgreSQL database and Google Cloud SQL
+        - Perl/Mojolicious/Vue for Web UI/REST interface
+        - Remote access
+        - Authentication/Authorisation system via SSH tunnelled/proxied HTTP.
+        - Continuous Integration using Atlassian Bamboo
+        - Ran daily standups, sprint planning.
+    - company: The Muses
+      position: Software Dev (part time)
+      start_date: 2017
+      end_date: 2024
+      highlights:
+        - Maintain stock handling scripts fetching data from FTP/HTTP/Emails.
+        - Automated image gathering and S3 storage
+    - company: Suntrix/MyWatt
+      position: Software Engineer/Architect (part time)
+      start_date: 2011
+      end_date: 2016
+      highlights:
+        - Designed and built embedded applications below.
+        - Querying different solar inverters, power meters, and batteries.
+        - Storing solar generation data in a crash resistant custom file format using Google Protocol Buffers and CRC32 checksums.
+        - Uploading data from the embedded board to a Restful web service
+          using SSL, Curl and Jansson.
+        - Device and OpenWRT network configuration with a custom LCD dot
+          matrix display and a USB keyboard and a REST/Web interface using
+          jQuery and Bootstrap.
+        - Various hardware and signal debugging
+    - company: Quantum Engineering Australia
+      position: Test Automation Engineer
+      start_date: 2010
+      end_date: 2015
+      highlights:
+        - Wrote and maintained system tests for large storage system written in C.
+        - Wrote and maintained parts of a custom test framework written in Perl.
+        - Maintained a SWIG interface between C/C++ and Perl systems.
+        - Wrote a web based test result storage and query system.
+        - Wrote and designed a web based multiple pool/machine test execution system to automatically run different test based on different requirements on different machines.
+        - Integrate coverage reporting using Bullseye into the test execution system.
+        - Implement test result exporting into 3rd party test management system (ApTest Manager)
+    - company: Internode Systems
+      position: Analyst Programmer
+      start_date: 2003
+      end_date: 2010
+      highlights:
+        - Designed and built usage accounting system, including multi threaded soap daemon, multi threaded netflow collector including custom file format using bzip2 compression, multi threaded snmp usage collection, radius and netflow processing.
+        - Designed and built multi-threaded database transaction manager with berkeleydb datastore and custom btree index implementation
+        - Built a perl based sessions/usage management system.
+        - Maintain a PHP based CMS system with PostgreSQL backend
+        - Built FastCGI based usage API with BerkeleyDB backend
+        - Built C based database tools for custom BerkeleyDB based database including backup/restore and comparison tools.
+        - Build various perl modules using XS.
+        - Use Perl and Test::More for testing C code.
+        - Built Perl CGI tools for helpdesk staff
+        - Interface with cisco routers via snmp, rsh, radius and netflow
+        - Worked in small groups for various projects
+        - Had role of Technical Lead on several projects.
+    - company: SE Network Access
+      position: Programmer
+      start_date: 1998
+      end_date: 2003
+      highlights:
+        - Designed and built usage accounting system
+        - Responsible for CMS and Accounting System
+        - Database Administration (PostgreSQL)
+        - Managed a small group of people building and maintaining accounting system
+        - Helped build a java based search engine aggregator
+        - Designed and built LFAP flow collector for Cabletron routers
+
+    technologies:
+    - label: Languages
+      details: C, Perl, Java, PHP, Pascal, 68HC11/68000 Assembly. HTML/XML, Javascript
+    - label: Scripting
+      details: Bash, ZSH, Awk, Seq, Grep, xargs
+    - label: Databases
+      details: PostgreSQL, Google CloudSQL, InfluxDB, VictoriaMetrics, Amazon S3, BerkelyDB, SQL Server
+    - label: OS's
+      details: Linux (Gentoo, Arch, Debian, Ubuntu, Alpine, Proxmox, Redhat), OpenWRT, Yocto, FreeBSD, MacOS, Solaris, Windows
+    - label: Other
+      details: Subversion, Git (github/gitea), Bugzilla, Jira/Confluence/Bitbucket/Bamboo, Vue.JS, Reviewboard, Restful web services, SWIG, Mojolicous MVC Framework, RoseDB ORM, Perl XS, SOAP (gsoap, SOAP::Lite), Catalyst MVC Framework, Bootstrap, jQuery, GD graphics toolkit, PThreads, Valgrind/GDB
+    projects:
+      - name: Growatt-XX00MTL-ESPHome
+        date: '[github.com](https://github.com/mattaltus/growatt-XX00MTL-esphome)'
+        highlights:
+          - ESP8266 based device to query a Growatt inverter using a custom protocol and report into Home Assistant
+          - "Tools Used - C++, Python, yaml"
+    interests:
+      - name: Cricket (South Road Cricket Club)
+        highlights:
+          - Junior Coordinator for 3 years
+          - Captain D Grade for 4 years
+          - Committee Member for 6 years
+          - Life Member since 2019
+      - name: Music
+        highlights:
+          - The Trafalgars since 2002
+          - Drums, Guitar
+          - Music Production and Engineering
+    referees:
+      - name: Available on request
+
+
+design:
+  theme: classic
+  font: Source Sans 3
+  font_size: 12pt
+  page_size: a4paper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified-with-no-hyphenation
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in:
+    - Experience
