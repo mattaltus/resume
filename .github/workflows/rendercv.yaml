@@ -43,6 +43,7 @@ jobs:
           filters: |
             cv:
               - '*_CV.tex'
+              - '*_CV.html'
               - 'README.md'
       - name: Push the changes
         if: steps.changes.outputs.cv == 'true'
