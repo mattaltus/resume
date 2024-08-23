@@ -4,10 +4,10 @@ on:
   push:
     tags:
       - "*" # Any tag pushed to the repository
-      
+
 permissions:
   contents: write
-  
+
 jobs:
   call_rendercv_workflow:
     name: RenderCV
@@ -30,5 +30,6 @@ jobs:
           files: |
             rendercv_output/*_CV.pdf
             rendercv_output/*_CV.tex
+            rendercv_output/*_CV.html
           generate_release_notes: true
           make_latest: true
