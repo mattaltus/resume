@@ -26,83 +26,132 @@ Picture this:
 -  Edit and preview your CV in your browser without installing anything by creating a codespace. Click the <> **Code** button, then click the **Codespaces** tab, and then click **Create codespace on main**. The environment will be ready for RenderCV usage. Update `.vscode/launch.json` to point to your YAML file and press `F5` to run RenderCV in the browser.
 
 <!-- Remove above in src/markdown/Header.j2.md not in README.md -->
-# John Doe's CV
+# Matthew Altus's CV
 
-- Phone: +90 541 999 99 99
-- Email: [youremail@yourdomain.com](mailto:youremail@yourdomain.com)
-- Location: Your Location
-- Website: [yourwebsite.com](https://yourwebsite.com/)
-- LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
-- GitHub: [yourusername](https://github.com/yourusername)
+- Phone: +61 408 644 469
+- Email: [matt@altus.id.au](mailto:matt@altus.id.au)
+- Location: Melrose Park, South Australia
+- LinkedIn: [matthew-altus-9769b6259](https://linkedin.com/in/matthew-altus-9769b6259)
+- GitHub: [mattaltus](https://github.com/mattaltus)
 
 
-# Welcome to RenderCV!
+# Eduction
 
-[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.
+## Univerity of South Australia, Computer Systems Engineering
 
-The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-
-# Quick Guide
-
-- Each section title is arbitrary and each section contains a list of entries.
-- There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.
-- Select a section title, pick an entry type, and start writing your section!
-- [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
-# Education
-
-## University of Pennsylvania, BS in Computer Science
-
-- Sept 2000 – May 2005
-- GPA: 3.9/4.0 ([Transcript](https://example.com))
-- **Coursework:** Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+- 1995 – 1998
 
 # Experience
 
-## Apple, Software Engineer
+## RedFlow International, Senior Software Engineer
 
-- June 2005 – Aug 2007
-- Cupertino, CA
-- Reduced time to render user buddy lists by 75% by implementing a prediction algorithm
-- Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-- Redesigned chat file format and implemented backward compatibility for search
+- 2016 – present
+- Built and Maintain Battery Management System
+- Perl/Mojolicious/Vue for Web UI/REST interface
+- MQTT/JSON/LZ4 message bus
+- Internal data storage in C/JSON/LZ4
+- Battery interface with MODBUS RTU over RS485
+- Inverter/EMS interface with CANBus (SMA, Ingeteam) MODBUS TCP and UDP, custom API’s from Selectronic, and Growatt
+- Interface USB relays with HID and FTDI bit banging interface.
+- Built and maintain custom linux based firmware images using Yocto
+- Helped maintain and port battery controller firmware.
+- Bare metal firmware on MSP430 using TI Code Composer.
+- Bare metal firmware on C2000 using TI Code Composer.
+- Designed a challenge/response antitheft mechanism.
+- Developed and Maintain Cloud service
+- Hosted on VMware at first and Google Cloud VMs
+- PostgreSQL database and Google Cloud SQL
+- Perl/Mojolicious/Vue for Web UI/REST interface
+- Remote access
+- Authentication/Authorisation system via SSH tunnelled/proxied HTTP.
+- Continuous Integration using Atlassian Bamboo
+- Ran daily standups, sprint planning.
 
-## Microsoft, Software Engineer Intern
+## The Muses, Software Dev (part time)
 
-- June 2003 – Aug 2003
-- Redmond, WA
-- Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-- Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-- Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-- Created a test case generation tool that creates random XML docs from XML Schema
-- Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+- 2017 – 2024
+- Maintain stock handling scripts fetching data from FTP/HTTP/Emails.
+- Automated image gathering and S3 storage
 
-# Publications
+## Suntrix/MyWatt, Software Engineer/Architect (part time)
 
-## 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan 2004
-- Frodo Baggins, ***John Doe***, Samwise Gamgee
+- 2011 – 2016
+- Designed and built embedded applications below.
+- Querying different solar inverters, power meters, and batteries.
+- Storing solar generation data in a crash resistant custom file format using Google Protocol Buffers and CRC32 checksums.
+- Uploading data from the embedded board to a Restful web service using SSL, Curl and Jansson.
+- Device and OpenWRT network configuration with a custom LCD dot matrix display and a USB keyboard and a REST/Web interface using jQuery and Bootstrap.
+- Various hardware and signal debugging
 
-# Projects
+## Quantum Engineering Australia, Test Automation Engineer
 
-## Multi-User Drawing Tool
+- 2010 – 2015
+- Wrote and maintained system tests for large storage system written in C.
+- Wrote and maintained parts of a custom test framework written in Perl.
+- Maintained a SWIG interface between C/C++ and Perl systems.
+- Wrote a web based test result storage and query system.
+- Wrote and designed a web based multiple pool/machine test execution system to automatically run different test based on different requirements on different machines.
+- Integrate coverage reporting using Bullseye into the test execution system.
+- Implement test result exporting into 3rd party test management system (ApTest Manager)
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-- Tools Used: C++, MFC
+## Internode Systems, Analyst Programmer
 
-## Synchronized Desktop Calendar
+- 2003 – 2010
+- Designed and built usage accounting system, including multi threaded soap daemon, multi threaded netflow collector including custom file format using bzip2 compression, multi threaded snmp usage collection, radius and netflow processing.
+- Designed and built multi-threaded database transaction manager with berkeleydb datastore and custom btree index implementation
+- Built a perl based sessions/usage management system.
+- Maintain a PHP based CMS system with PostgreSQL backend
+- Built FastCGI based usage API with BerkeleyDB backend
+- Built C based database tools for custom BerkeleyDB based database including backup/restore and comparison tools.
+- Build various perl modules using XS.
+- Use Perl and Test::More for testing C code.
+- Built Perl CGI tools for helpdesk staff
+- Interface with cisco routers via snmp, rsh, radius and netflow
+- Worked in small groups for various projects
+- Had role of Technical Lead on several projects.
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-- Tools Used: C#, .NET, SQL, XML
+## SE Network Access, Programmer
 
-## Custom Operating System
-
-- 2002
-- Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-- Tools Used: C
+- 1998 – 2003
+- Designed and built usage accounting system
+- Responsible for CMS and Accounting System
+- Database Administration (PostgreSQL)
+- Managed a small group of people building and maintaining accounting system
+- Helped build a java based search engine aggregator
+- Designed and built LFAP flow collector for Cabletron routers
 
 # Technologies
 
-- Languages: C++, C, Java, Objective-C, C#, SQL, JavaScript
-- Technologies: .NET, Microsoft SQL Server, XCode, Interface Builder
+- Languages: C, Perl, Java, PHP, Pascal, 68HC11/68000 Assembly. HTML/XML, Javascript
+- Scripting: Bash, ZSH, Awk, Seq, Grep, xargs
+- Databases: PostgreSQL, Google CloudSQL, InfluxDB, VictoriaMetrics, Amazon S3, BerkelyDB, SQL Server
+- OS's: Linux (Gentoo, Arch, Debian, Ubuntu, Alpine, Proxmox, Redhat), OpenWRT, Yocto, FreeBSD, MacOS, Solaris, Windows
+- Other: Subversion, Git (github/gitea), Bugzilla, Jira/Confluence/Bitbucket/Bamboo, Vue.JS, Reviewboard, Restful web services, SWIG, Mojolicous MVC Framework, RoseDB ORM, Perl XS, SOAP (gsoap, SOAP::Lite), Catalyst MVC Framework, Bootstrap, jQuery, GD graphics toolkit, PThreads, Valgrind/GDB
+# Projects
+
+## Growatt-XX00MTL-ESPHome
+
+- [github.com](https://github.com/mattaltus/growatt-XX00MTL-esphome)
+- ESP8266 based device to query a Growatt inverter using a custom protocol and report into Home Assistant
+- Tools Used - C++, Python, yaml
+
+# Interests
+
+## Cricket (South Road Cricket Club)
+
+- Junior Coordinator for 3 years
+- Captain D Grade for 4 years
+- Committee Member for 6 years
+- Life Member since 2019
+
+## Music
+
+- The Trafalgars since 2002
+- Drums, Guitar
+- Music Production and Engineering
+
+# Referees
+
+## Available on request
+
+
