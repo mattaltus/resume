@@ -16,6 +16,8 @@
         "Matthew_Altus_CV.pdf",
         "--markdown-path",
         "README.md"
+        "--html-path",
+        "Matthew_Altus_CV.html"
       ]
     }
   ]
