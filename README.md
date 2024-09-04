@@ -7,9 +7,9 @@
 - GitHub: [mattaltus](https://github.com/mattaltus)
 
 
-# Education
+# Eduction
 
-## University of South Australia, Computer Systems Engineering
+## Univerity of South Australia, Computer Systems Engineering
 
 - 1995 – 1998
 
