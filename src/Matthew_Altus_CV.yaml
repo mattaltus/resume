@@ -9,9 +9,10 @@ cv:
     - network: GitHub
       username: mattaltus
   sections:
-    eduction:
-    - institution: Univerity of South Australia
+    education:
+    - institution: University of South Australia
       area: Computer Systems Engineering
+      degree: BEng
       start_date: 1995
       end_date: 1998
     experience:
@@ -105,7 +106,7 @@ cv:
 
     technologies:
     - label: Languages
-      details: C, Perl, Java, PHP, Pascal, 68HC11/68000 Assembly. HTML/XML, Javascript
+      details: C, Perl, Go, Java, PHP, Pascal, 68HC11/68000 Assembly. HTML/XML, Javascript
     - label: Scripting
       details: Bash, ZSH, Awk, Seq, Grep, xargs
     - label: Databases
@@ -120,6 +121,15 @@ cv:
         highlights:
           - ESP8266 based device to query a Growatt inverter using a custom protocol and report into Home Assistant
           - "Tools Used - C++, Python, yaml"
+      - name: HA Growatt 2 Influx
+        date: '[git (self-hosted)](https://git.altus.id.au/matt/hagrowatt2influx)'
+        highlights:
+          - Go based program to read data from HomeAssistant and import into an InfluxDB
+      - name: Team Man Webapp
+        date: '[git (self-hosted)](https://git.altus.id.au/matt/teamman)'
+        highlights:
+          - Simple webapp to keep track of my cricket clubs team man votes
+          - An exercise to learn Go
     interests:
       - name: Cricket (South Road Cricket Club)
         highlights:
