@@ -7,9 +7,9 @@
 - GitHub: [mattaltus](https://github.com/mattaltus)
 
 
-# Eduction
+# Education
 
-## Univerity of South Australia, Computer Systems Engineering
+## University of South Australia, BEng in Computer Systems Engineering
 
 - 1995 – 1998
 
@@ -94,7 +94,7 @@
 
 # Technologies
 
-- Languages: C, Perl, Java, PHP, Pascal, 68HC11/68000 Assembly. HTML/XML, Javascript
+- Languages: C, Perl, Go, Java, PHP, Pascal, 68HC11/68000 Assembly. HTML/XML, Javascript
 - Scripting: Bash, ZSH, Awk, Seq, Grep, xargs
 - Databases: PostgreSQL, Google CloudSQL, InfluxDB, VictoriaMetrics, Amazon S3, BerkelyDB, SQL Server
 - OS's: Linux (Gentoo, Arch, Debian, Ubuntu, Alpine, Proxmox, Redhat), OpenWRT, Yocto, FreeBSD, MacOS, Solaris, Windows
@@ -106,6 +106,17 @@
 - [github.com](https://github.com/mattaltus/growatt-XX00MTL-esphome)
 - ESP8266 based device to query a Growatt inverter using a custom protocol and report into Home Assistant
 - Tools Used - C++, Python, yaml
+
+## HA Growatt 2 Influx
+
+- [git (self-hosted)](https://git.altus.id.au/matt/hagrowatt2influx)
+- Go based program to read data from HomeAssistant and import into an InfluxDB
+
+## Team Man Webapp
+
+- [git (self-hosted)](https://git.altus.id.au/matt/teamman)
+- Simple webapp to keep track of my cricket clubs team man votes
+- An exercise to learn Go
 
 # Interests
 
